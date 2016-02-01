@@ -1,0 +1,48 @@
+% -*- compile-command: "pdflatex supportTider.latex"; eval: (compile-on-save-mode) -*-
+
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[swedish]{babel}
+\usepackage[margin=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{fix-cm}
+\usepackage{tgadventor}
+
+\renewcommand*\familydefault{\sfdefault}
+\usepackage[T1]{fontenc}
+\pagestyle{empty}
+
+\begin{document}
+\linespread{2}
+\begin{center}
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=0.45\textwidth]{opus.jpg}
+\end{figure}
+
+\mbox{}
+\vspace{0.1cm}
+
+
+\fontsize{35}{22}\selectfont\normalfont
+CYD-poolens supporttider:\\
+
+\vspace{1cm}
+
+\fontsize{25}{18}\selectfont\normalfont
+\setlength{\tabcolsep}{2.1cm}
+\begin{tabular}{ r l }
+  Måndag &  12:15-13:00   \\
+  Tisdag &  17:15-18:00   \\
+  Onsdag &  12:15-13:00   \\
+  Torsdag & 12:15-13:00  \\
+  Fredag &  \hspace{0.1cm}Inte ens lite \\
+\end{tabular}
+\end{center}
+\vspace{0.8cm}
+
+\fontsize{16}{12}\selectfont\normalfont
+\noindent
+Under dessa tider sitter vi i adminrummet redo att svara på era frågor, farhågor och förhoppningar. Som vanligt kan ni alltid nå oss på admin@cyd.liu.se. Driver du en studentförening kan CYD-poolen hjälpa er med b.l.a. hemsidor och fillagerlösningar.
+\end{document}
