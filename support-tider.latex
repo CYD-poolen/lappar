@@ -33,8 +33,8 @@ CYD-poolens supporttider:\\
 \fontsize{25}{18}\selectfont\normalfont
 \setlength{\tabcolsep}{2.1cm}
 \begin{tabular}{ r l }
-  Måndag &  12:15-13:00   \\
-  Tisdag &  17:15-18:00   \\
+  Måndag &  17:15-18:00   \\
+  Tisdag &  12:15-13:00   \\
   Onsdag &  12:15-13:00   \\
   Torsdag & 12:15-13:00  \\
   Fredag &  \hspace{0.1cm}Inte ens lite \\
